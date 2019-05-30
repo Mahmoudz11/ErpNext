@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include end_of_service_reward *.css
+recursive-include end_of_service_reward *.csv
+recursive-include end_of_service_reward *.html
+recursive-include end_of_service_reward *.ico
+recursive-include end_of_service_reward *.js
+recursive-include end_of_service_reward *.json
+recursive-include end_of_service_reward *.md
+recursive-include end_of_service_reward *.png
+recursive-include end_of_service_reward *.py
+recursive-include end_of_service_reward *.svg
+recursive-include end_of_service_reward *.txt
+recursive-exclude end_of_service_reward *.pyc
